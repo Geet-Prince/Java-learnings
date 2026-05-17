@@ -1,0 +1,24 @@
+package junit10;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SortingArrayTest {
+
+	@Test
+	void test() {
+		try {
+			SortingArray sa=new SortingArray();
+			int unsorted[]= null;
+			int sorted[]=sa.sortingArray(unsorted);
+			for(int sor:sorted) {
+				System.out.print(sor);
+				}
+			}
+		catch(NullPointerException e) {
+			System.out.print("Exception generated");
+		}
+	}
+
+}

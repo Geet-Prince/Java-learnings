@@ -1,0 +1,19 @@
+package junit5maven06;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestTrial {
+	Shapes sh=new Shapes();
+	@Test
+	void test() {
+		assertEquals(6,3+3);
+	}
+	@Test
+	void testComputeSquareArea() {
+		assertEquals(49,sh.computeSquareArea(7));
+	}
+	
+
+}

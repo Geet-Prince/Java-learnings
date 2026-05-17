@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SortingArrayTest" project="junit10" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="junit10.SortingArrayTest" time="0.051" displayname="SortingArrayTest" uniqueid="[engine:junit-jupiter]/[class:junit10.SortingArrayTest]">
+    <testcase name="test" classname="junit10.SortingArrayTest" time="0.051" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:junit10.SortingArrayTest]/[method:test()]">
+      <failure>org.opentest4j.AssertionFailedError&#13;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:34)&#13;
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:119)&#13;
+	at junit10.SortingArrayTest.test(SortingArrayTest.java:18)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

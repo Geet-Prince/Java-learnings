@@ -1,0 +1,19 @@
+package junit10;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SortingArrayTest {
+
+	@Test
+	void test() {
+		SortingArray sa=new SortingArray();
+		int unsorted[]= {1,3,2,4,1,9,8,6,7};
+		int sorted[]=sa.sortingArray(unsorted);
+		for(int sor:sorted) {
+			System.out.print(sor);
+		}
+	}
+
+}
